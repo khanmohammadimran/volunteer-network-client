@@ -1,29 +1,30 @@
 import React from "react";
+import mainLogo from "../../../images/main-logo.png"
 
 const Navbar = () => {
   const menuItems =
     <>
       <li>
-        <a>Home</a>
+        <a className="font-mont font-medium text-[#0B0B0B]">Home</a>
       </li>
       <li>
-        <a>Donation</a>
+        <a className="font-mont font-medium text-[#0B0B0B]">Donation</a>
       </li>
       <li>
-        <a>Events</a>
+        <a className="font-mont font-medium text-[#0B0B0B]">Events</a>
       </li>
       <li>
-        <a>Blog</a>
+        <a className="font-mont font-medium text-[#0B0B0B]">Blog</a>
       </li>
     </>
   return (
-    <div class="navbar bg-base-100 justify-center">
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
+    <div className="navbar bg-base-100 md:justify-center lg:justify-center">
+      <div className="w-9/12 justify-start">
+        <div className="dropdown">
+          <label tabindex="0" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
+              className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -38,19 +39,20 @@ const Navbar = () => {
           </label>
           <ul
             tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 bg-transparent"
           >
             {menuItems}
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <img className="w-full lg:w-52 md:w-52" src={mainLogo} alt="" />
+        {/* <a className="btn btn-ghost normal-case text-xl">daisyUI</a> */}
       </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
+      <div className="navbar-center hidden lg:flex bg-transparent">
+        <ul className="menu menu-horizontal p-0">
           {menuItems}
           <div className="grid grid-cols-2 gap-2">
-            <a class="btn">Register</a>
-            <a class="btn">Admin</a>
+            <button className="font-mont px-12 bg-[#3F90FC] rounded-lg text-white hover:bg-violet-600">Register</button>
+            <button className="font-mont px-12 bg-[#434141] rounded-lg text-white hover:bg-[#313030]">Admin</button>
           </div>
         </ul>
       </div>

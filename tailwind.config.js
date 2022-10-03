@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mont: "Montserrat"
+      },
+      backgroundImage: {
+        'banner': "url('/src/images/banner.png')"
+      }
+    },
   },
   plugins: [require("daisyui")],
 };
