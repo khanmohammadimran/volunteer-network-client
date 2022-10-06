@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "name": "Child support",
+        "color": "yellow",
+        "img": "https://i.ibb.co/syWsyhr/kid-1.png"
+    },
+    {
+        "id": "2",
+        "name": "Refuge shelter",
+        "color": "Brick",
+        "img": "https://i.ibb.co/DpK89FB/kid-2.png"
+    },
+    {
+        "id": "3",
+        "name": "Food charity",
+        "color": "Sky",
+        "img": "https://i.ibb.co/Wgs9Qp2/kid-3.png"
+    },
+    {
+        "id": "4",
+        "name": "Host a clothing swap",
+        "color": "Violet",
+        "img": "https://i.ibb.co/YyB35bW/kid-4.png"
+    },
+    {
+        "id": "5",
+        "name": "Host a river clean-up",
+        "color": "Sky",
+        "img": "https://i.ibb.co/61qf8hL/kid-5.png"
+    },
+    {
+        "id": "6",
+        "name": "Clean water for children",
+        "color": "Violet",
+        "img": "https://i.ibb.co/f1NLc30/kid-6.png"
+    },
+    {
+        "id": "7",
+        "name": "Good education",
+        "color": "yellow",
+        "img": "https://i.ibb.co/SrVKKGw/kid-7.png"
+    },
+    {
+        "id": "8",
+        "name": "New books for children",
+        "color": "Brick",
+        "img": "https://i.ibb.co/xgW224B/kid-8.png"
+    },
+    {
+        "id": "9",
+        "name": "Host a study group",
+        "color": "yellow",
+        "img": "https://i.ibb.co/njxXHfs/kid-9.png"
+    },
+    {
+        "id": "10",
+        "name": "Build birdhouses for your neighbors",
+        "color": "Sky",
+        "img": "https://i.ibb.co/BTmypJw/kid-10.png"
+    },
+    {
+        "id": "11",
+        "name": "Organize books at the library",
+        "color": "Brick",
+        "img": "https://i.ibb.co/TtWLvjd/kid-11.png"
+    },
+    {
+        "id": "12",
+        "name": "Give a seminar on driving safety",
+        "color": "Violet",
+        "img": "https://i.ibb.co/sH7Mdp6/kid-12.png"
+    }
+]

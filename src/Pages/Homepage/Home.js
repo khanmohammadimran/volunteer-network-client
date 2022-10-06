@@ -1,11 +1,12 @@
 import React from "react";
 import Header from "./Header";
+import VolunteerService from "./VolunteerService";
 
 const Home = () => {
   return (
     <div>
-      <h2>This is home</h2>
       <Header />
+      <VolunteerService />
     </div>
   );
 };

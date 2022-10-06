@@ -1,21 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import mainLogo from "../../../images/main-logo.png"
 
 const Navbar = () => {
   const menuItems =
     <>
-      <li>
-        <a className="font-mont font-medium text-[#0B0B0B]">Home</a>
+      <li><Link to="/" className="font-mont font-medium text-[#0B0B0B] hover:bg-[#dbdeda]">Home</Link></li>
+      <li><Link to="/donation" className="font-mont font-medium text-[#0B0B0B] hover:bg-[#dbdeda]">Donation</Link></li>
+      <li><Link to="/events" className="font-mont font-medium text-[#0B0B0B] hover:bg-[#dbdeda]">Events</Link>
       </li>
-      <li>
-        <a className="font-mont font-medium text-[#0B0B0B]">Donation</a>
-      </li>
-      <li>
-        <a className="font-mont font-medium text-[#0B0B0B]">Events</a>
-      </li>
-      <li>
-        <a className="font-mont font-medium text-[#0B0B0B]">Blog</a>
-      </li>
+      <li><Link to="/blog" className="font-mont font-medium text-[#0B0B0B] hover:bg-[#dbdeda]">Blog</Link></li>
     </>
   return (
     <div className="navbar bg-base-100 md:justify-center lg:justify-center">
@@ -30,9 +24,9 @@ const Navbar = () => {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
               />
             </svg>
