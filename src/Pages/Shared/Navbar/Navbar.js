@@ -12,7 +12,7 @@ const Navbar = () => {
       <li><Link to="/blog" className="font-mont font-medium text-[#0B0B0B] hover:bg-[#dbdeda]">Blog</Link></li>
     </>
   return (
-    <div className="navbar bg-base-100 md:justify-center lg:justify-center">
+    <div className="navbar bg-base-100  lg:justify-center px-14">
       <div className="w-9/12 justify-start">
         <div className="dropdown">
           <label tabindex="0" className="btn btn-ghost lg:hidden">

@@ -1,4 +1,5 @@
 import React from "react";
+import AboutVolunteer from "./AboutVolunteer";
 import Header from "./Header";
 import VolunteerService from "./VolunteerService";
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <Header />
       <VolunteerService />
+      <AboutVolunteer />
     </div>
   );
 };
