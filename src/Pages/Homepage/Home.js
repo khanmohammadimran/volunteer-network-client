@@ -1,5 +1,6 @@
 import React from "react";
 import AboutVolunteer from "./AboutVolunteer";
+import Campaigns from "./Campaigns";
 import Header from "./Header";
 import VolunteerService from "./VolunteerService";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <VolunteerService />
       <AboutVolunteer />
+      <Campaigns />
     </div>
   );
 };

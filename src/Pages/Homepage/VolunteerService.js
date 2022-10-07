@@ -12,7 +12,7 @@ const VolunteerService = () => {
     return (
         <div className='grid grid-rows-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center justify-center mt-8 px-14'>
             {
-                volunteers.map(volunteer => <div className=''>
+                volunteers.map(volunteer =>
                     <div key={volunteer.id} className="w-72">
                         <div className='w-72'>
                             <div className=''>
@@ -34,7 +34,7 @@ const VolunteerService = () => {
 
                         </div>
                     </div>
-                </div>)
+                )
             }
         </div>
     );
