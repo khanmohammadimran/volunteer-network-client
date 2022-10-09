@@ -2,13 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import donate from '../../images/donation_03-740x545.jpg'
-import education from '../../images/slider/education.jpg'
-import agriculture from '../../images/slider/farmer.jpg'
-import food from '../../images/slider/food.jpg'
-import garbage from '../../images/slider/Garbage.jpg'
-import help from '../../images/slider/help.jpg'
-import medicine from '../../images/slider/medical.jpg'
+import education from '../../../images/slider/education.jpg'
+import agriculture from '../../../images/slider/agriculture.jpg'
+import food from '../../../images/slider/food.jpg'
+import garbage from '../../../images/slider/Garbage.jpg'
+import help from '../../../images/slider/help.jpg'
+import medicine from '../../../images/slider/medical.jpg'
 import './Campaigns.css'
 
 const Campaigns = () => {
@@ -67,7 +66,7 @@ const Campaigns = () => {
             </div>
             <div className="w-11/12 mx-auto mt-9">
                 <Slider {...settings}>
-                    <div className="max-w-sm bg-white rounded-lg drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
                             <img src={education} alt="" className="rounded-lg" />
                             <div className="badge badge-primary mt-4">education</div>
@@ -79,7 +78,7 @@ const Campaigns = () => {
                             <p className="mb-3 font-medium">We mainly teach children aged between 6-14 years. Typical subjects taught include English, Maths and many more subject.</p>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-white rounded-lg drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
                             <img src={agriculture} alt="" className="rounded-lg" />
                             <div className="badge badge-primary mt-4">agriculture</div>
@@ -91,7 +90,7 @@ const Campaigns = () => {
                             <p className="mb-3 font-medium">Agriculture is one of the oldest and most essential industries in the world. We help them grow their farming</p>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-white rounded-lg drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
                             <img src={food} alt="" className="rounded-lg" />
                             <div className="badge badge-primary mt-4">food</div>
@@ -103,7 +102,7 @@ const Campaigns = () => {
                             <p className="mb-3 font-medium">We know the pain of not having food on the table. Therefore, I'm determined to help the needy.</p>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-white rounded-lg drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
                             <img src={garbage} alt="" className="rounded-lg" />
                             <div className="badge badge-primary mt-4">cleanup</div>
@@ -115,7 +114,7 @@ const Campaigns = () => {
                             <p className="mb-3 font-medium">Beach cleanup projects protect our aquatic ecosystems from the harmful effects of pollution.</p>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-white rounded-lg drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
                             <img src={help} alt="" className="rounded-lg" />
                             <div className="badge badge-primary mt-4">community</div>
@@ -127,7 +126,7 @@ const Campaigns = () => {
                             <p className="mb-3 font-medium">Our mission is to help small communities to rise out of poverty. We provide food, clothes.</p>
                         </div>
                     </div>
-                    <div className="max-w-sm bg-white rounded-lg drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
+                    <div className="max-w-sm bg-white rounded-lg border border-gray-200 drop-shadow-xl dark:bg-gray-800 dark:border-gray-700">
                         <div className="p-5">
                             <img src={medicine} alt="" className="rounded-lg" />
                             <div className="badge badge-primary mt-4">healthcare</div>

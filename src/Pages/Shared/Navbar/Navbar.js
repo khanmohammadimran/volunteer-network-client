@@ -46,7 +46,7 @@ const Navbar = () => {
           {menuItems}
           <div className="grid grid-cols-2 gap-2">
             <button className="font-mont px-12 bg-[#3F90FC] rounded-lg text-white hover:bg-violet-600">Register</button>
-            <button className="font-mont px-12 bg-[#434141] rounded-lg text-white hover:bg-[#313030]">Admin</button>
+            <button className="font-mont px-12 bg-[#434141] rounded-lg text-white hover:bg-[#313030]">Donate</button>
           </div>
         </ul>
       </div>
