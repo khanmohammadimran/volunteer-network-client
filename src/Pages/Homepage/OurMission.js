@@ -10,7 +10,7 @@ const OurMission = () => {
             <div className='basis-1/2'>
                 <p className='text-[#fd6711] uppercase font-medium'>Our Mission</p>
                 <h2 className="text-4xl font-bold">Every child deserves the opportunity to learn.</h2>
-                <p className="py-6 font-medium pr-2 md:pr-8 lg:pr-8">When young people want to tell their story, we listen. These young people still believe in a better tomorrow. They know they can break free from those who <br /> <br /> This is the impact you helped us achieve in 2020-21 lorem ipsum is simply free text dolor sit amet, consec tetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p className="py-6 text-lg font-medium pr-2 md:pr-8 lg:pr-8">When young people want to tell their story, we listen. These young people still believe in a better tomorrow. They know they can break free from those who <br /> <br /> This is the impact you helped us achieve in 2020-21 lorem ipsum is simply free text dolor sit amet, consec tetur notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore.</p>
             </div>
             <div className='basis-1/2'>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8'>

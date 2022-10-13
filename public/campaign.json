@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "img": "https://i.ibb.co/ynSWLzf/education.jpg",
+        "badge": "education",
+        "name": "Education is the best gift",
+        "text": "We mainly teach children aged between 6-14 years. Typical subjects taught include English, Maths and many more."
+    },
+    {
+        "id": "2",
+        "img": "https://i.ibb.co/qR5YLzQ/agriculture.jpg",
+        "badge": "agriculture",
+        "name": "Guide them in farming",
+        "text": "Agriculture is one of the oldest and most essential industries in the world. We help them grow their farming"
+    },
+    {
+        "id": "3",
+        "img": "https://i.ibb.co/XLNSg19/food.jpg",
+        "badge": "food",
+        "name": "We provide free meals",
+        "text": "We know the pain of not having food on the table. Therefore, I'm determined to help the needy."
+    },
+    {
+        "id": "4",
+        "img": "https://i.ibb.co/pjspNs7/Garbage.jpg",
+        "badge": "cleanup",
+        "name": "The ocean cleanup",
+        "text": "Beach cleanup projects protect our aquatic ecosystems from the harmful effects of pollution."
+    },
+    {
+        "id": "5",
+        "img": "https://i.ibb.co/dK6BcJ9/help.jpg",
+        "badge": "community",
+        "name": "Help community to rise",
+        "text": "Our mission is to help small communities to rise out of poverty. We provide food, clothes."
+    },
+    {
+        "id": "6",
+        "img": "https://i.ibb.co/9W3XN9K/medical.jpg",
+        "badge": "healthcare",
+        "name": "Health care for unprivileged",
+        "text": "We Contribute to developing healthcare services and basic education in schools and communities."
+    }
+]

@@ -13,10 +13,10 @@ const AboutVolunteer = () => {
                     <div className='w-full md:w-1/2 lg:w-1/2'>
                         <img className='' src={kid} alt="kid" />
                     </div>
-                    <div className='w-full md:w-1/2 lg:w-1/2 font-mont'>
+                    <div className='w-full md:w-1/2 lg:w-1/2 font-mont pr-8'>
                         <p className='text-[#fd6711] uppercase font-medium'>About volunteer Network</p>
                         <h2 className="text-4xl font-bold">We are Make an education charity donation today</h2>
-                        <p className="py-6 font-medium">Growing up in poverty, children face many challenges: hunger and health problems, limited access to education and medical services.Growing up in poverty children face many</p>
+                        <p className="py-6 text-lg font-medium">Growing up in poverty, children face many challenges: hunger and health problems, limited access to education and medical services.Growing up in poverty children face many</p>
                         <hr />
                         <div className='mt-6 flex items-center'>
                             <FaPencilAlt className='text-2xl mr-2 text-[#FF7044]' />
