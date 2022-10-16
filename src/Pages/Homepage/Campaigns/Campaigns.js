@@ -14,6 +14,8 @@ import { Autoplay, Pagination } from "swiper";
 
 const Campaigns = () => {
     const [Campaigns, setCampaigns] = useState([])
+    const [showMore, setShowMore] = useState(false)
+    const [isOpen, setOpen] = useState(false)
 
     useEffect(() => {
         fetch('campaign.json')
@@ -22,7 +24,14 @@ const Campaigns = () => {
     }, [])
 
 
-
+    const handaleShowMore = (id) => {
+        const result = Campaigns.filter(campaign => campaign.id === id)
+        if (result[0]['id']) {
+            setShowMore(!showMore)
+            console.log(result[0]['id']);
+            setOpen(result)
+        }
+    }
 
 
     return (
@@ -30,10 +39,10 @@ const Campaigns = () => {
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                }}
+                // autoplay={{
+                //     delay: 2500,
+                //     disableOnInteraction: false,
+                // }}
                 pagination={{
                     clickable: true,
                 }}
@@ -61,17 +70,22 @@ const Campaigns = () => {
                                 <img src={campaign.img} alt="" className="rounded-lg" />
                                 <div className="badge badge-primary mt-4">{campaign.badge}</div>
                             </div>
-                            <div className="px-5">
+                            <div className="px-5 py-2">
                                 <div>
                                     <h3 className="mb-2 text-2xl font-bold tracking-tight">{campaign.name}</h3>
                                 </div>
-                                <p className="mb-3 font-medium">{campaign.text}</p>
+                                {
+                                    showMore ? campaign.text : `${campaign.text.substring(0, 82)}...`
+                                }
+                                <button className='text-sm underline text-primary' onClick={() => handaleShowMore(campaign.id)}>
+                                    {isOpen && showMore ? "Show Less" : "Show More"}
+                                </button>
                             </div>
                         </div>
                     </SwiperSlide>)
                 }
             </Swiper>
-        </div>
+        </div >
     );
 };
 

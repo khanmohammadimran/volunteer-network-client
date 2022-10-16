@@ -31,7 +31,6 @@ const VolunteerService = () => {
                                     <h2 className='font-mont text-xl text-center font-semibold'>{volunteer.name}</h2>
                                 </div>
                             }
-
                         </div>
                     </div>
                 )
