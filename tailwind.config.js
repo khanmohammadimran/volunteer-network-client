@@ -7,7 +7,10 @@ module.exports = {
         mont: "Montserrat"
       },
       backgroundImage: {
-        'banner': "url('/src/images/banner.png')"
+        'banner': "url('/src/images/banner.png')",
+        'donate': "url('/src/images/help.jpeg')",
+        'africa-help': "url('/src/images/africa-help.jpg)",
+        'gift-edu': "url('./src/images/gift-edu.jpg)"
       }
     },
   },

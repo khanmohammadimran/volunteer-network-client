@@ -18,21 +18,23 @@ const AboutVolunteer = () => {
                         <h2 className="text-4xl font-bold">We are Make an education charity donation today</h2>
                         <p className="py-6 text-lg font-medium">Growing up in poverty, children face many challenges: hunger and health problems, limited access to education and medical services.Growing up in poverty children face many</p>
                         <hr />
-                        <div className='mt-6 flex items-center'>
-                            <FaPencilAlt className='text-2xl mr-2 text-[#FF7044]' />
-                            <p className='font-medium text-xl'>20,000 poor children education and empowered</p>
-                        </div>
-                        <div className='mt-6 flex items-center'>
-                            <IoIosPeople className='text-2xl mr-2 text-[#FF7044]' />
-                            <p className='font-medium text-xl'>42,000 children lifted from poverty</p>
-                        </div>
-                        <div className='mt-6 flex items-center'>
-                            <RiMentalHealthFill className='text-2xl mr-2 text-[#FF7044]' />
-                            <p className='font-medium text-xl'>9,000 children healthy and nourished</p>
-                        </div>
-                        <div className='mt-6 mb-6 flex items-center'>
-                            <RiUserHeartFill className='text-2xl mr-2 text-[#FF7044]' />
-                            <p className='font-medium text-xl'>Make an education charity for their bright future.</p>
+                        <div className='px-8 lg:px-0'>
+                            <div className='mt-6 flex items-center'>
+                                <FaPencilAlt className='text-4xl lg:text-2xl mr-2 text-[#FF7044]' />
+                                <p className='font-medium text-xl'>20,000 poor children education and empowered</p>
+                            </div>
+                            <div className='mt-6 flex items-center'>
+                                <IoIosPeople className='text-2xl mr-2 text-[#FF7044]' />
+                                <p className='font-medium text-xl'>42,000 children lifted from poverty</p>
+                            </div>
+                            <div className='mt-6 flex items-center'>
+                                <RiMentalHealthFill className='text-2xl mr-2 text-[#FF7044]' />
+                                <p className='font-medium text-xl'>9,000 children healthy and nourished</p>
+                            </div>
+                            <div className='mt-6 mb-6 flex items-center'>
+                                <RiUserHeartFill className='text-2xl mr-2 text-[#FF7044]' />
+                                <p className='font-medium text-xl'>Make an education charity for their bright future.</p>
+                            </div>
                         </div>
                         <hr />
                     </div>
