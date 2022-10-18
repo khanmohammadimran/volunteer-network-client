@@ -6,6 +6,7 @@ import Campaigns from "./Campaigns/Campaigns";
 import Donate from "./Donate/DonateCard";
 import Header from "./Header";
 import OurMission from "./OurMission";
+import Testimonial from "./Testimonial/Testimonial";
 import VolunteerService from "./VolunteerService";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <AboutVolunteer />
       <Donate />
       <BecomeVolunteer />
+      <Testimonial />
     </div>
   );
 };
