@@ -1,6 +1,5 @@
 import React from "react";
 import ScrollTop from "../ScrollTop/ScrollTop";
-import Footer from "../Shared/Footer/Footer";
 import AboutVolunteer from "./AboutVolunteer";
 import BecomeVolunteer from "./BecomeVolunteer";
 import Campaigns from "./Campaigns/Campaigns";
@@ -24,7 +23,6 @@ const Home = () => {
       <BecomeVolunteer />
       <Testimonial />
       <Subscribe />
-      <Footer />
     </div>
   );
 };

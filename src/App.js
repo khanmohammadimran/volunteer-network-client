@@ -4,6 +4,7 @@ import Home from "./Pages/Homepage/Home";
 import Donate from "./Pages/Donate/Donate";
 import Events from "./Pages/Events/Events";
 import Blog from "./Pages/Blog/Blog";
+import Footer from "./Pages/Shared/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/events" element={<Events />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

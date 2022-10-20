@@ -8,7 +8,7 @@ import { RiUserHeartFill } from 'react-icons/ri';
 const AboutVolunteer = () => {
     return (
         <div className=''>
-            <div className="hero justify-end mt-20">
+            <div className="hero justify-end mt-20 px-2 md:px-0 lg:px-0">
                 <div className="hero-content flex-col lg:flex-row items-start">
                     <div className='w-full md:w-1/2 lg:w-1/2'>
                         <img className='' src={kid} alt="kid" />

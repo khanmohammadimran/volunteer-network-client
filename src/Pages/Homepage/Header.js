@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <div className="bg-[url('/src/images/banner.png')] -mt-28">
-            <div className='pt-44 pb-24'>
+            <div className='pt-44 pb-24 px-2 md:px-0 lg:px-0'>
                 <h1 className='font-mont uppercase font-bold text-4xl text-center mt-20'>I grow by helping people in need.</h1>
                 <div className='mt-6 text-center'>
                     <input type="text" placeholder='Search...' className='font-mont py-4 pl-4 w-11/12 md:w-96 lg:w-96 border border-[#D6D6D6] rounded-l-lg' />

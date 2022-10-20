@@ -33,7 +33,7 @@ const Campaigns = () => {
 
 
     return (
-        <div className='mt-16 px-14 font-mont'>
+        <div className='mt-16 px-4 md:px-14 lg:px-14 font-mont'>
             <p className='text-[#fd6711] uppercase font-medium'>We help around the world</p>
             <h2 className="text-4xl font-bold">Introduce Our Campaigns</h2>
             <Swiper
