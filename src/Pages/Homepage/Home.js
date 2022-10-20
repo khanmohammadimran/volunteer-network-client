@@ -1,11 +1,13 @@
 import React from "react";
 import ScrollTop from "../ScrollTop/ScrollTop";
+import Footer from "../Shared/Footer/Footer";
 import AboutVolunteer from "./AboutVolunteer";
 import BecomeVolunteer from "./BecomeVolunteer";
 import Campaigns from "./Campaigns/Campaigns";
 import Donate from "./Donate/DonateCard";
 import Header from "./Header";
 import OurMission from "./OurMission";
+import Subscribe from "./Subscribe";
 import Testimonial from "./Testimonial/Testimonial";
 import VolunteerService from "./VolunteerService";
 
@@ -21,6 +23,8 @@ const Home = () => {
       <Donate />
       <BecomeVolunteer />
       <Testimonial />
+      <Subscribe />
+      <Footer />
     </div>
   );
 };
