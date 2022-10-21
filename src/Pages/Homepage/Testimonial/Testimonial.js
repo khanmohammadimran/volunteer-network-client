@@ -11,15 +11,15 @@ import person from '../../../images/img-07.jpg'
 
 const Testimonial = () => {
     return (
-        <div className='font-mont w-full md:w-9/12 lg:w-9/12 mx-auto my-8 px-8 md:px-0 lg:px-0'>
+        <div className='w-full md:w-9/12 lg:w-9/12 mx-auto my-8 px-8 md:px-0 lg:px-0'>
             <h2 className="text-4xl font-bold text-center">What people say about us</h2>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
-                // autoplay={{
-                //     delay: 2500,
-                //     disableOnInteraction: false,
-                // }}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
                 pagination={{
                     clickable: true,
                 }}
@@ -29,7 +29,7 @@ const Testimonial = () => {
                         spaceBetween: 20,
                     },
                     768: {
-                        slidesPerView: 4,
+                        slidesPerView: 2,
                         spaceBetween: 40,
                     },
                     1024: {

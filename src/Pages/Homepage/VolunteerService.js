@@ -20,15 +20,15 @@ const VolunteerService = () => {
                             </div>
                             {
                                 volunteer.color === "yellow" ? <div className='flex justify-center items-center rounded-b-lg text-white h-20 bg-[#FFBD3E]'>
-                                    <h2 className='font-mont text-xl text-center font-semibold'>{volunteer.name}</h2>
+                                    <h2 className='text-xl text-center font-semibold'>{volunteer.name}</h2>
                                 </div> : volunteer.color === "Brick" ? <div className='flex justify-center items-center rounded-b-lg text-white h-20 bg-[#FF7044]'>
-                                    <h2 className='font-mont text-xl text-center font-semibold'>{volunteer.name}</h2>
+                                    <h2 className='text-xl text-center font-semibold'>{volunteer.name}</h2>
                                 </div> : volunteer.color === "Sky" ? <div className='flex justify-center items-center rounded-b-lg text-white h-20 bg-[#3F90FC]'>
-                                    <h2 className='font-mont text-xl text-center font-semibold'>{volunteer.name}</h2>
+                                    <h2 className='text-xl text-center font-semibold'>{volunteer.name}</h2>
                                 </div> : volunteer.color === "Violet" ? <div className='flex justify-center items-center rounded-b-lg text-white h-20 bg-[#421FCF]'>
-                                    <h2 className='font-mont text-xl text-center font-semibold'>{volunteer.name}</h2>
+                                    <h2 className='text-xl text-center font-semibold'>{volunteer.name}</h2>
                                 </div> : <div className='flex justify-center items-center rounded-b-lg text-white h-20 bg-slate-600'>
-                                    <h2 className='font-mont text-xl text-center font-semibold'>{volunteer.name}</h2>
+                                    <h2 className='text-xl text-center font-semibold'>{volunteer.name}</h2>
                                 </div>
                             }
                         </div>

@@ -5,16 +5,20 @@ import Donate from "./Pages/Donate/Donate";
 import Events from "./Pages/Events/Events";
 import Blog from "./Pages/Blog/Blog";
 import Footer from "./Pages/Shared/Footer/Footer";
+import Register from "./Pages/Register and Login/Register";
+import AboutMe from "./Pages/About Me/AboutMe";
 
 function App() {
   return (
-    <div>
+    <div className="font-mont">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/donation" element={<Donate />}></Route>
+        <Route path="/aboutme" element={<AboutMe />}></Route>
+        <Route path="/donate" element={<Donate />}></Route>
         <Route path="/events" element={<Events />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/register" element={<Register />}></Route>
       </Routes>
       <Footer />
     </div>

@@ -6,7 +6,7 @@ import { BsCheck2Circle } from 'react-icons/bs';
 const OurMission = () => {
     const [realTimeCount, setRealTimeCount] = useState(false)
     return (
-        <div className='flex flex-col md:flex-row lg:flex-row mt-20 px-8 md:px-14 lg:px-14 font-mont'>
+        <div className='flex flex-col lg:flex-row mt-20 px-8 md:px-14 lg:px-14'>
             <div className='basis-1/2'>
                 <p className='text-[#fd6711] uppercase font-medium'>Our Mission</p>
                 <h2 className="text-4xl font-bold">Every child deserves the opportunity to learn.</h2>
