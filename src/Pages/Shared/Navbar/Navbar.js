@@ -12,7 +12,7 @@ const Navbar = () => {
       <li><Link to="/aboutme" className="font-medium text-[#0B0B0B] hover:bg-[#dbdeda]">About Me</Link></li>
     </>
   const mentuButtons = <>
-    <li><Link to="register" className="px-12 my-2 md:my-2 lg:my-0 bg-[#3F90FC] rounded-lg text-white hover:bg-violet-600">Register</Link></li>
+    <li><Link to="/login" className="px-12 my-2 md:my-2 lg:my-0 bg-[#3F90FC] rounded-lg text-white hover:bg-violet-600">Login</Link></li>
     <li><Link to="/donate" className="px-12 bg-[#434141] rounded-lg text-white hover:bg-[#313030]">Donate</Link></li>
   </>
   return (

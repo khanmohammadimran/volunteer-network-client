@@ -7,6 +7,7 @@ import Blog from "./Pages/Blog/Blog";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Register from "./Pages/Register and Login/Register";
 import AboutMe from "./Pages/About Me/AboutMe";
+import Login from "./Pages/Register and Login/Login";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/events" element={<Events />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/register" element={<Register />}></Route>
+        <Route path="/login" element={<Login />}></Route>
       </Routes>
       <Footer />
     </div>

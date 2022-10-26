@@ -51,7 +51,7 @@ const Testimonial = () => {
                         </div>
                         <AiOutlineCaretDown className='text-6xl text-[#ccd4fa] mx-auto -mt-[18px]' />
                         <div className='w-24 mx-auto'>
-                            <img class="w-24 rounded-full outline outline-offset-2 outline-[#ccd4fa]" src={person} alt="" width="384" height="512" />
+                            <img className="w-24 rounded-full outline outline-offset-2 outline-[#ccd4fa]" src={person} alt="" width="384" height="512" />
                         </div>
                     </div>
                 </SwiperSlide>
@@ -62,7 +62,7 @@ const Testimonial = () => {
                         </div>
                         <AiOutlineCaretDown className='text-6xl text-[#ccd4fa] mx-auto -mt-[18px]' />
                         <div className='w-24 mx-auto'>
-                            <img class="w-24 rounded-full outline outline-offset-2 outline-[#ccd4fa]" src={person} alt="" width="384" height="512" />
+                            <img className="w-24 rounded-full outline outline-offset-2 outline-[#ccd4fa]" src={person} alt="" width="384" height="512" />
                         </div>
                     </div>
                 </SwiperSlide>
@@ -73,7 +73,7 @@ const Testimonial = () => {
                         </div>
                         <AiOutlineCaretDown className='text-6xl text-[#ccd4fa] mx-auto -mt-[18px]' />
                         <div className='w-24 mx-auto'>
-                            <img class="w-24 rounded-full outline outline-offset-2 outline-[#ccd4fa]" src={person} alt="" width="384" height="512" />
+                            <img className="w-24 rounded-full outline outline-offset-2 outline-[#ccd4fa]" src={person} alt="" width="384" height="512" />
                         </div>
                     </div>
                 </SwiperSlide>
@@ -84,7 +84,7 @@ const Testimonial = () => {
                         </div>
                         <AiOutlineCaretDown className='text-6xl text-[#ccd4fa] mx-auto -mt-[18px]' />
                         <div className='w-24 mx-auto'>
-                            <img class="w-24 rounded-full outline outline-offset-2 outline-[#ccd4fa]" src={person} alt="" width="384" height="512" />
+                            <img className="w-24 rounded-full outline outline-offset-2 outline-[#ccd4fa]" src={person} alt="" width="384" height="512" />
                         </div>
                     </div>
                 </SwiperSlide>
