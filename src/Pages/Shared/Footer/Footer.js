@@ -7,7 +7,7 @@ import { BsFacebook } from 'react-icons/bs';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-[#222328] justify-items-center text-white">
+            <footer className="footer p-10 bg-[#222328] justify-items-start md:justify-items-start lg:justify-items-center text-white">
                 <div>
                     <p>We’re curious, passionate, and <br /> committed to helping nonprofits <br /> learn and grow. Donate now!</p>
                     <button className='btn bg-[#FF7044] rounded-full text-white hover:bg-[#FFBD3E] px-8 py-2 mt-2'>Donate Now</button>
@@ -19,7 +19,7 @@ const Footer = () => {
                     <p className="link link-hover">Marketing</p>
                     <p className="link link-hover">Advertisement</p>
                 </div>
-                <div>
+                <div className=''>
                     <span className="font-bold">Company</span>
                     <p className="link link-hover">About us</p>
                     <p className="link link-hover">Contact</p>
